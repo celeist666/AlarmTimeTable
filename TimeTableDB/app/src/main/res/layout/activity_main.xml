@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#353535"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Main_txt_Title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Alarm Time Table"
+        android:textColor="#ffbb00"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:src="@drawable/clock1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:id="@+id/Main_btn_setting"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:textColor="#ffbb00"
+        android:background="@drawable/border"
+        android:text="Setting"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:padding="0dp"/>
+
+    <Button
+        android:id="@+id/Main_btn_timetable"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:textColor="#ffbb00"
+        android:background="@drawable/border"
+        android:text="TimeTable"
+        android:layout_marginTop="460dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/Main_btn_list"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="list"
+        android:background="@drawable/border"
+        android:textColor="#ffbb00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:textSize="20dp"
+        />
+</RelativeLayout>
